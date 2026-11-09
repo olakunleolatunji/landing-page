@@ -73,16 +73,21 @@ a {
     color: #E5E7EB;
 }
 
-.hero button {
+.hero button,
+.cta-container button {
     background-color: #3882F6;
     padding: 10px 25px;
     border-radius: 10px;
     max-width: fit-content;
     border-color: #F9FAF8;
     border: none;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 15px;
 }
 
-.hero button:active {
+.hero button:active,
+.cta-container button:active {
     transform: scale(0.95);
     background-color: #2065d3;
 }
@@ -150,4 +155,29 @@ a {
     font-size: 20px;
     font-weight: 600;
     color: #1F2937;
+}
+
+.cta-container {
+    display: flex;
+    background-color: #3882F6;
+    padding: 60px 110px;
+    margin: 75px 200px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.cta-container button {
+    border: 1px solid white;
+}
+
+.cta-main-text {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.cta-sub-text {
+    color: #E5E7EB;
+    font-size: 16px;
+    font-weight: 300;
 }
