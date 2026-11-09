@@ -74,8 +74,8 @@ a {
     color: #E5E7EB;
 }
 
-.hero button,
-.cta-container button {
+.hero .button,
+.cta-container .button {
     background-color: #3882F6;
     padding: 10px 25px;
     border-radius: 10px;
@@ -87,8 +87,8 @@ a {
     font-size: 15px;
 }
 
-.hero button:active,
-.cta-container button:active {
+.hero .button:active,
+.cta-container .button:active {
     transform: scale(0.95);
     background-color: #2065d3;
 }
@@ -167,8 +167,10 @@ a {
     justify-content: space-between;
 }
 
-.cta-container button {
+.cta-container .button {
     border: 1px solid white;
+    display: flex;
+    align-items: center;
 }
 
 .cta-main-text {
